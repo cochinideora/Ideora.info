@@ -17,6 +17,29 @@
 <script>
   document.documentElement.classList.add('js');
   </script>
+
+<style id="ideora-custom-header-background">
+  /* IDEORA CAREERS branded teal wave header background */
+  .page-header {
+    background-image: linear-gradient(90deg, rgba(3, 39, 55, .78), rgba(3, 39, 55, .28)), url("assets/img/header-bg.jpeg") !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .hero {
+    background-image: linear-gradient(90deg, rgba(3, 39, 55, .82), rgba(3, 39, 55, .35)), url("assets/img/header-bg.jpeg") !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .hero .hero-video-wrap { display: none !important; }
+  .hero .hero-video-overlay { background: transparent !important; }
+  @media (max-width: 767.98px) {
+    .page-header { background-position: center; }
+    .hero { background-position: 58% center; }
+  }
+</style>
+
 </head>
 <body>
 
@@ -24,7 +47,7 @@
 <nav class="navbar-luxe">
     <div class="container-xl">
       <a href="index.html" class="navbar-brand-luxe">
-        <img src="assets/img/logo.png" class="img-fluid" width="150">
+        <img src="assets/img/logo.png" class="img-fluid" alt="Ideora Careers" style="width:auto;max-width:190px;height:58px;object-fit:contain;background:#0B1220;padding:5px 10px;border-radius:8px;">
       </a>
       <ul class="nav-links-luxe">
         <li><a href="index.html">Home</a></li>
@@ -192,6 +215,11 @@
       <span><a href="#" style="color:rgba(255,255,255,0.6);">Privacy Policy</a> · <a href="#" style="color:rgba(255,255,255,0.6);">Terms of Service</a></span>
     </div>
   </div>
+
+    <div class="footer-accreditation" style="display:flex; justify-content:flex-end; align-items:center; margin:12px 0 0; padding:4px 0 8px;">
+      <img src="assets/img/british-council-logo.png" alt="British Council" loading="lazy"
+           style="display:block; width:92px; max-width:24vw; height:auto; background:#fff; border-radius:4px; padding:5px;">
+    </div>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>

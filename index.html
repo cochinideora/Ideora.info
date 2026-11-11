@@ -21,6 +21,29 @@
   <script>
     document.documentElement.classList.add('js');
   </script>
+
+<style id="ideora-custom-header-background">
+  /* IDEORA CAREERS branded teal wave header background */
+  .page-header {
+    background-image: linear-gradient(90deg, rgba(3, 39, 55, .78), rgba(3, 39, 55, .28)), url("assets/img/header-bg.jpeg") !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .hero {
+    background-image: linear-gradient(90deg, rgba(3, 39, 55, .82), rgba(3, 39, 55, .35)), url("assets/img/header-bg.jpeg") !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .hero .hero-video-wrap { display: none !important; }
+  .hero .hero-video-overlay { background: transparent !important; }
+  @media (max-width: 767.98px) {
+    .page-header { background-position: center; }
+    .hero { background-position: 58% center; }
+  }
+</style>
+
 </head>
 
 <body class="is-loading">
@@ -39,7 +62,7 @@
   <nav class="navbar-luxe">
     <div class="container-xl">
       <a href="index.html" class="navbar-brand-luxe">
-        <img src="assets/img/logo.png" class="img-fluid" width="150">
+        <img src="assets/img/logo.png" class="img-fluid" alt="Ideora Careers" style="width:auto;max-width:190px;height:58px;object-fit:contain;background:#0B1220;padding:5px 10px;border-radius:8px;">
       </a>
       <ul class="nav-links-luxe">
         <li><a href="index.html" class="active">Home</a></li>
@@ -84,22 +107,22 @@
           </div>
 
           <div class="hero-badges hero-anim hero-anim-5">
-            <div class="hero-badge"><i class="fa-solid fa-certificate"></i> ICEF Certified Counsellors</div>
+            <div class="hero-badge"><i class="fa-solid fa-certificate"></i> British Council Certified Agent</div>
             <div class="hero-badge"><i class="fa-solid fa-shield-halved"></i> 100% Visa Compliance</div>
             <div class="hero-badge"><i class="fa-solid fa-star"></i> 4.9/5 Student Rating</div>
           </div>
 
           <div class="hero-stats hero-anim hero-anim-5">
             <div class="hero-stat">
-              <div class="num js-counter" data-count="500" data-suffix="+">0</div>
+              <div class="num js-counter" data-count="1200" data-suffix="+">0</div>
               <div class="label">Happy Clients</div>
             </div>
             <div class="hero-stat">
-              <div class="num js-counter" data-count="10" data-suffix="+">0</div>
-              <div class="label">Years Experience</div>
+              <div class="num js-counter" data-count="4" data-suffix="+">0</div>
+              <div class="label">Years of Experience</div>
             </div>
             <div class="hero-stat">
-              <div class="num js-counter" data-count="1200" data-suffix="+">0</div>
+              <div class="num js-counter" data-count="500" data-suffix="+">0</div>
               <div class="label">Placements</div>
             </div>
             <div class="hero-stat">
@@ -333,7 +356,7 @@
         </svg>
 
         <div class="dest-hub">
-          <div class="dest-hub-circle"><img src="assets/img/logo.png" alt="Ideora" class="img-fluid"></div>
+          <div class="dest-hub-circle"><img src="assets/img/logo.png" alt="Ideora Careers" class="img-fluid"></div>
           <div class="dest-hub-label">Ideora</div>
         </div>
 
@@ -360,7 +383,7 @@
       <!-- Mobile destination flight path -->
       <div class="dest-mobile-path d-md-none reveal">
         <div class="dmp-hub">
-          <div class="dest-hub-circle"><img src="assets/img/logo.png" alt="Ideora" class="img-fluid"></div>
+          <div class="dest-hub-circle"><img src="assets/img/logo.png" alt="Ideora Careers" class="img-fluid"></div>
           <span class="dmp-hub-label">Your journey starts here</span>
         </div>
 
@@ -567,7 +590,7 @@
       <div class="bento-grid reveal">
         <div class="bento-tile tile-dark span-2 row-2">
           <div class="bento-icon"><i class="fa-solid fa-award"></i></div>
-          <div class="bento-num js-counter" data-count="1200" data-suffix="+" style="color:#fff;">0</div>
+          <div class="bento-num js-counter" data-count="500" data-suffix="+" style="color:#fff;">0</div>
           <h4>Successful Placements</h4>
           <p>Across 40 countries, and counting.</p>
         </div>
@@ -606,16 +629,16 @@
     <div class="container-xl">
       <div class="row g-4">
         <div class="col-6 col-lg-3 stat-item">
-          <div class="num js-counter" data-count="500" data-suffix="+">0</div>
+          <div class="num js-counter" data-count="1200" data-suffix="+">0</div>
           <div class="label">Happy Clients</div>
         </div>
         <div class="col-6 col-lg-3 stat-item">
-          <div class="num js-counter" data-count="10" data-suffix="+">0</div>
-          <div class="label">Years Experience</div>
+          <div class="num js-counter" data-count="4" data-suffix="+">0</div>
+          <div class="label">Years of Experience</div>
         </div>
         <div class="col-6 col-lg-3 stat-item">
-          <div class="num js-counter" data-count="1200" data-suffix="+">0</div>
-          <div class="label">Projects</div>
+          <div class="num js-counter" data-count="500" data-suffix="+">0</div>
+          <div class="label">Placements</div>
         </div>
         <div class="col-6 col-lg-3 stat-item">
           <div class="num js-counter" data-count="98" data-suffix="%">0</div>
@@ -920,9 +943,8 @@
     <div class="container-xl">
       <div class="row g-5">
         <div class="col-lg-4 col-md-6">
-          <a href="index.html" class="footer-brand" aria-label="Ideora home">
-            <img src="assets/img/logo.png" alt="Ideora" style="display:block;width:180px;max-width:100%;height:auto;object-fit:contain;">
-          </a>
+          <a href="index.html" class="footer-brand"><i class="fa-solid fa-globe" style="color:#FFB157;"></i>
+            <span>Ide</span>ora</a>
           <p style="font-size:.9rem; max-width:320px;">A boutique study-abroad consultancy guiding ambitious students to
             the world's finest universities — from first shortlist to visa stamp.</p>
           <div class="social-row">
@@ -974,7 +996,7 @@
         </span>
       </div>
     </div>
-  </footer>
+</footer>
 
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

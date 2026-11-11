@@ -266,6 +266,29 @@ img { max-width: 100%; display: block; }
 }
 </style>
   <script>document.documentElement.classList.add('js');</script>
+
+<style id="ideora-custom-header-background">
+  /* IDEORA CAREERS branded teal wave header background */
+  .page-header {
+    background-image: linear-gradient(90deg, rgba(3, 39, 55, .78), rgba(3, 39, 55, .28)), url("assets/img/header-bg.jpeg") !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .hero {
+    background-image: linear-gradient(90deg, rgba(3, 39, 55, .82), rgba(3, 39, 55, .35)), url("assets/img/header-bg.jpeg") !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .hero .hero-video-wrap { display: none !important; }
+  .hero .hero-video-overlay { background: transparent !important; }
+  @media (max-width: 767.98px) {
+    .page-header { background-position: center; }
+    .hero { background-position: 58% center; }
+  }
+</style>
+
 </head>
 <body>
 
@@ -321,7 +344,7 @@ img { max-width: 100%; display: block; }
         </svg>
 
         <div class="dest-hub">
-          <div class="dest-hub-circle"><img src="assets/img/logo.png" alt="Ideora" class="img-fluid"></div>
+          <div class="dest-hub-circle"><img src="assets/img/logo.png" alt="Ideora Careers" class="img-fluid"></div>
           <div class="dest-hub-label">Ideora</div>
         </div>
 
@@ -348,7 +371,7 @@ img { max-width: 100%; display: block; }
       <!-- Mobile destination flight path -->
       <div class="dest-mobile-path d-md-none reveal">
         <div class="dmp-hub">
-          <div class="dest-hub-circle"><img src="assets/img/logo.png" alt="Ideora" class="img-fluid"></div>
+          <div class="dest-hub-circle"><img src="assets/img/logo.png" alt="Ideora Careers" class="img-fluid"></div>
           <span class="dmp-hub-label">Your journey starts here</span>
         </div>
 
