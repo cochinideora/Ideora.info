@@ -1,6 +1,6 @@
 IDEORA WEBSITE — DEPLOYMENT PACKAGE
 
-This folder contains the static website. The homepage is index.html at the root.
+This folder contains the static Ideora Careers website. The homepage is index.html at the root. The unused standalone section page has been removed; its destination content remains on the homepage.
 
 PUBLISH WITH NETLIFY
 1. Open https://app.netlify.com/drop in a browser and sign in.
