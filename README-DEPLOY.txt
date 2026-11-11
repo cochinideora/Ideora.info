@@ -41,3 +41,9 @@ LATEST UPDATE
 - Homepage metrics updated: 1,200+ Happy Clients, 4+ Years of Experience, 500+ Placements.
 - Hero credential text updated to “British Council Certified Agent”.
 - British Council logo appears only at the lower-right of the Contact page footer.
+
+
+LATEST HEADER UPDATE
+- Removed the teal dotted-wave image as a page/hero header background.
+- Restored the original homepage hero video background and the original page-header styling.
+- Changed the logo backing panel to a sampled teal-blue (#075F70) from the supplied background image.
